@@ -1,9 +1,12 @@
 // font-[family-name:var(--font-geist-sans)]
+
+import { Container } from '@/components';
+
 // font-[family-name:var(--font-geist-mono)]
 export default function Home() {
   return (
-    <div>
-      Hello Vasha
-    </div>
+    <Container>
+      Vasha-UI
+    </Container>
   );
 }
